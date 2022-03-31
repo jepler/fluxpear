@@ -1,0 +1,4 @@
+#include "libwoz.h"
+
+const uint8_t woz2_signature[8] = {'W', 'O', 'Z', '2', 0xff, 0x0a, 0x0d, 0x0a };
+const uint8_t ff40_times_4[5] = {0xff, 0x3f, 0xcf, 0xf3, 0xfc};
